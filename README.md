@@ -1,1 +1,1 @@
-# QMUL_python_code_exercises
+# QMUL_code_practices
