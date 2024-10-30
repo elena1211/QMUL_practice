@@ -55,3 +55,5 @@ from dept30
 WHERE job != 'SALESMAN';
 -- 11) Drop column type from loans table.
 ALTER TABLE accounts DROP COLUMN TYPE;
+-- 12) Drop the view dept30
+DROP VIEW dept30;
