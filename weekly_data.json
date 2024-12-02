@@ -1,0 +1,46 @@
+[
+    {
+        "date": "2023-01-01",
+        "cases": 123,
+        "admissions": 45,
+        "deaths": 12
+    },
+    {
+        "date": "2023-01-02",
+        "cases": 234,
+        "admissions": 67,
+        "deaths": 8
+    },
+    {
+        "date": "2023-01-03",
+        "cases": 345,
+        "admissions": 89,
+        "deaths": 14
+    },
+    {
+        "date": "2023-01-04",
+        "cases": 456,
+        "admissions": 123,
+        "deaths": 9
+    },
+    {
+        "date": "2023-01-05",
+        "cases": 321,
+        "admissions": 56,
+        "deaths": 15
+    },
+    {
+        "date": "2023-01-06",
+        "cases": 432,
+        "admissions": 78,
+        "deaths": 10
+    },
+    {
+        "date": "2023-01-07",
+        "cases": 543,
+        "admissions": 90,
+        "deaths": 13
+    }
+]
+
+
