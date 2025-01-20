@@ -1,10 +1,14 @@
 import os 
+from datetime import datetime
 
 def write_diary():
     diary_entry = input("Write your diary entry: ")
+    timestamp = datetime.now().strftime("%d-%m-%Y %H:%M:%S")
+    entry_with_timestamp = f"[{timestamp}] {diary_entry}"
+
     with open("diary.txt", mode="a", encoding="utf-8") as file:
-        file.write(diary_entry + "\n") 
-    print("Diary entry saved to diary.txt.")
+        file.write(entry_with_timestamp + "\n")
+    print("Diary entry saved with timestamp.")
 
 def load_diary():
     if os.path.exists("diary.txt"): 
@@ -19,6 +23,7 @@ def load_diary():
                 print("Your diary is empty.")
     else:
         print("No existing diary found. Starting with an empty diary.")
+
 
 while True:
     print("\n=== Diary ===")
